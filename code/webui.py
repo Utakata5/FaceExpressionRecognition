@@ -13,12 +13,12 @@ from PIL import Image
 
 @st.cache_resource(ttl=10800) # 3小时过期
 def load_h5model():
-    model = tf.keras.models.load_model('../Saved-Models/model7509.h5')
+    model = tf.keras.models.load_model('Saved-Models/model7509.h5')
     return model
 
 @st.cache_resource(ttl=10800) # 3小时过期
 def load_cv():
-    classifier = cv2.CascadeClassifier('../haarcascade_frontalface_default.xml')
+    classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     return classifier
 
 @st.cache_resource(ttl=10800) # 3小时过期
