@@ -2,11 +2,10 @@ h5py==3.10.0
 keras==2.15.0
 Keras-Preprocessing
 numpy
-opencv-python==4.9.0.80
+opencv-python-headless
 pandas==2.2.1
 streamlit==1.32.2
 streamlit-cropper==0.2.2
 streamlit-webrtc==0.47.6
 tensorflow==2.15.0
 Pillow==9.4.0
-libgl1-mesa-dev
